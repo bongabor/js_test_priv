@@ -1,0 +1,22 @@
+{
+  "name": "bonyai",
+  "version": "1.0.0",
+  "description": "Test package from bonyai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bongabor/js_test_priv.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Bonyai, Gabor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bongabor/js_test_priv/issues"
+  },
+  "homepage": "https://github.com/bongabor/js_test_priv#readme"
+}
