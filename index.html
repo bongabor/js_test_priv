@@ -5,8 +5,17 @@
                <title>Chapter 2</title>
                 <body>
                     <p>Hello World</p>
+                    <button id="myButton">Click Me</ button >
                     <script>
-                        console.log(this)
+                        function myCount(evt){
+                            console.count(evt);
+                        }
+                        document.addEventListener("DOMContentLoaded", () => {
+                        document.querySelector("#myButton").addEventListner("click", myCount);
+
+                        });
+
+                        //result [object MouseEvent]: 1..2..3
                     </script>>
                </body>
         </head>
