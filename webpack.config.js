@@ -15,10 +15,11 @@ module.exports = {
               options: {minimize:true}
       }
       }],
+    },
     plugins:[
     new HtmlWebpackPlugin({
         template:"./index.html",
         filename: "./index.html"
         })
-       ]
-}};
+    ],
+};
