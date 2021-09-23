@@ -22,7 +22,7 @@ module.exports = {
         }),
         new MiniCssExtractPlugin({
             filename: "[name].css",
-            chunkfile: "[id].css"
+            chunkFilename: "[id].css"
         })
     ],
 };
