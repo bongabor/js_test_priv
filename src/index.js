@@ -1,4 +1,5 @@
 import $ from 'jquery'
+import './_scss/main.scss';
 $(document).ready(()=> {
     console.log('hello from jquery');
    });
